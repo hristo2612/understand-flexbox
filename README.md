@@ -50,5 +50,14 @@ To cause wrapping behaviour add the property <code>flex-wrap</code> with a value
 
 [Example 3 - flex-wrap](https://mdn.github.io/css-examples/flexbox/basics/flex-wrap.html)
 
+### The flex-flow shorthand
+
+You can combine the two properties <code>flex-direction</code> and <code>flex-wrap</code> into the <code>flex-flow</code> shorthand. The first value specified is <code>flex-direction</code> and the second value is <code>flex-wrap</code>.
+
+Like this:
+
+<code>flex-flow: row-reverse wrap;</code>
+
+[Example 4 - flex-flow shorthand](https://mdn.github.io/css-examples/flexbox/basics/flex-flow.html)
 
 [Resources from here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)

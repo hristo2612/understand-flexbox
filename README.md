@@ -35,6 +35,11 @@ The result of this is that your items will all line up in a <code>row</code>, us
 [Example 1](https://mdn.github.io/css-examples/flexbox/basics/the-flex-container.html)
 
 
+#### Changing flex-direction
+
+We can change the direction of our items by using <code>flex-direction</code>!
+
+[Example 2 - with row-reverse](https://mdn.github.io/css-examples/flexbox/basics/flex-direction.html)
 
 
 

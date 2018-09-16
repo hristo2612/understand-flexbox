@@ -42,6 +42,13 @@ We can change the direction of our items by using <code>flex-direction</code>!
 [Example 2 - with row-reverse](https://mdn.github.io/css-examples/flexbox/basics/flex-direction.html)
 
 
+### Multi-line flex containers with <code>flex-wrap</code>
+
+While flexbox is a one dimensional model, it is possible to cause our flex items to wrap onto multiple lines. In doing so, you should consider each line as a new flex container. Any space distribution will happen across that line, without reference to the lines either side.
+
+To cause wrapping behaviour add the property <code>flex-wrap</code> with a value of wrap. Now, should your items be too large to all display in one line, they will wrap onto another line. The live sample below contains items that have been given a width, the total width of the items being too wide for the flex container. As <code>flex-wrap</code> is set to <code>wrap</code>, the items wrap. Set it to <code>nowrap</code>, which is also the initial value, and they will instead shrink to fit the container because they are using initial flexbox values that allows items to shrink. Using <code>nowrap</code> would cause an overflow if the items were not able to shrink, or could not shrink small enough to fit.
+
+[Example 3 - flex-wrap](https://mdn.github.io/css-examples/flexbox/basics/flex-wrap.html)
 
 
 [Resources from here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
